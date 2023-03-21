@@ -1,0 +1,131 @@
+header {
+    background-color: rgb(128, 155, 165);
+    font-family: verdana;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(63, 134, 192);
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=password] {
+    border: 2px solid #ccc;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(248, 237, 232);
+}
+
+button {
+    background-color: rgb(50, 185, 248);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(55, 148, 190);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.logo {
+    height: 90%;
+
+}
+
+.avisocss {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.rescss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listausu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row;
+
+}
+
+.rescss {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana;
+    font-size: 25px;
+    color: white;
+    flex-direction: column;
+}
+
+.usu {
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(140, 217, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px 3px 3px;
+    box-shadow: 1px 1px 3px;
+}
+
+.btn:hover {
+    background-color: rgb(245, 246, 248);
+}
+
+#bbb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#excl, #botaoadd{
+    background-color: rgb(140, 217, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px 5px 5px;
+    box-shadow: 1px 1px 3px;
+    margin-top: 50px;
+}
+#excl, #botaoadd:hover{
+background-color: whitesmoke;
+
+
+}
